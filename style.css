@@ -1,0 +1,40 @@
+.ip{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.btn {
+    background-color: black;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+
+.ip p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.part1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.part3{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 10px;
+    /* justify-content: space-between; */
+}
+.item {
+    border: 2px solid black;
+    margin: 5px 17px;
+    width: 30%;
+    border-radius: 5px;
+}
+#search {
+    width: 98%;
+    padding: 10px 5px;
+    display: none;
+    border-radius: 5px;
+}
